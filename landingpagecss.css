@@ -1,0 +1,175 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+header {
+    height: auto;
+    padding: 20px;
+}
+
+.hul{
+	display: inline-block;
+}
+.hul li{
+	    float: left;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.hdiv1{
+	display: inline-block;
+	float:left;
+}
+.hdiv1 button{
+	       float: left;
+    padding: 5px 12px;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border: none;
+}
+.hdiv1 h1{
+	float: left;
+	letter-spacing: 1px;
+}
+.hdiv2{
+
+	display: inline-block;
+	float: right;
+}
+.hbtn1{
+	border-radius: 5px;
+    border: 1px solid deepskyblue;
+    background-color: white;
+    padding: 10px;
+}
+.hbtn2{
+	border-radius: 5px;
+    border: 1px solid green;
+    background-color: green;
+    padding: 10px;
+    color: white;
+}
+#container{
+	max-width: 80%;
+	margin: 0px auto;
+}
+ul li{
+	list-style: none;
+}
+aside{
+	display: table;
+	    padding: 75px 0px;
+}
+aside article{
+	vertical-align: middle;
+	display: inline-block;
+    float: left;
+    width: 50%;
+}
+.art2,.art4,.art5,.art8,.art1{
+	text-align: center;
+}
+.art1 h1{
+	margin-top: 90px;
+    font-size: 30px;
+    padding-right: 149px;   
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.art1 button{
+	    padding: 10px 40px;
+    font-size: 20px;
+     margin: 10px 145px 0px 0px;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    background-color: #22b59ee8;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px lightgrey;
+}
+.art3 h1{
+	font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.art3 p{
+	    padding-right: 85px;
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.art6 p{
+	font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.art6 h1{
+	    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.art7 p{
+	    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.art7 h1{
+	    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+#div2{
+	text-align: center;
+	padding: 30px;
+	background-color: #51b7ac;
+}
+#div2 h2{
+	font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 10px;
+    color: white;
+}
+#div2 button{
+	    padding: 10px 25px;
+    margin-top: 30px;
+     background-color: #8ee5d8e8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1px;
+}
+.footer{
+	    display: inline-flex;
+    width: 100%;
+    margin: 25px;
+}
+.footer ul{
+	
+	width: 20%;
+}
+.footer ul li:first-child{
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.footer ul li{
+	line-height: 25px;
+}
+ a{
+	text-decoration: none;
+	color: black;
+}
+
+
+/*--------------------------------------------------------Media Qurie-------------------------------------------------------------*/
+
+@media(max-width: 768px){
+
+}
